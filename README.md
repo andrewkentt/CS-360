@@ -1,6 +1,22 @@
-# CS 360 Mobile Architecture and Programming
+# Android Inventory Manager
 
-## Inventory Manager
+I built this Android app in Java and SQLite to track inventory and adjust stock counts. It started as my CS 360 project.
+
+- Create a local account, sign in, and view inventory.
+- Add and remove items, adjust quantities, and keep changes saved when the app closes.
+- Optionally send a text alert when stock reaches zero. Inventory tracking still works if SMS permission is denied.
+
+## Open the project
+
+Download and extract [the project ZIP](FisherInventoryAppProject3.zip). Open the extracted project in Android Studio, sync Gradle, and run it on an Android emulator.
+
+## Testing
+
+I tested the app on a Pixel 8 emulator, including valid and invalid logins, quantity changes, data persistence after reopening, and the zero-stock alert with SMS permission allowed and denied.
+
+## CS 360 course reflection
+
+### Inventory Manager
 
 The goal of my Inventory Manager app was to create a simple way for users to keep track of inventory from an Android device. The app allows users to create an account and log in, view inventory, add and delete items, and increase or decrease item quantities. Inventory information is stored in a SQLite database so it stays saved after the app is closed. I also added an optional SMS feature that can alert the user when an item's quantity reaches zero.
 
